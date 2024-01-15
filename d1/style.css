@@ -1,0 +1,87 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+/* ESERCIZIO 1 */
+.jumbotron h1 {
+    color: blue;
+    /* Esempio: colore blu per l'h1 nella sezione "hero" */
+}
+
+/* ESERCIZIO 2 */
+.nav > span {
+    font-weight: bold;
+    /* Esempio: testo in grassetto per tutti i figli dell'elemento navbar */
+}
+
+/* ESERCIZIO 3 */
+.jumbotron a.font-weight-bold {
+    color: green;
+    /* Esempio: colore verde per il link "Continua a leggere" del jumbotron */
+}
+
+/* ESERCIZIO 4 */
+.blog-main .blog-post:first-child {
+    border: 2px solid red;
+    /* Esempio: bordo rosso per il primo blog post */
+}
+
+/* ESERCIZIO 5 */
+.blog-main .blog-post:first-child hr {
+    color: red;
+    /* Esempio: colore rosso per l'<hr> del primo blog post */
+}
+
+/* ESERCIZIO 6 */
+.nav > span:nth-child(even) {
+    background-color: lightgray;
+    /* Esempio: sfondo grigio per i link pari della navbar */
+}
+
+/* ESERCIZIO 7 */
+.blog-sidebar .list-unstyled:first-of-type li {
+    list-style-type: square;
+    /* Esempio: elenchi con quadrati per tutti gli <li> della prima "ordered-list" della sidebar ("Archivio") */
+}
+
+/* ESERCIZIO 8 */
+.blog-main .blog-post:nth-child(2) a[href^="#"] {
+    text-decoration: underline;
+    /* Esempio: sottolinea il link dell'autore del secondo blog post */
+}
+
+/* ESERCIZIO 9 */
+.blog-main .blog-post:nth-child(3) li:nth-child(2) {
+    color: purple;
+    /* Esempio: colore viola per il secondo <li> della lista del terzo blog post */
+}
+
+/* ESERCIZIO 10 */
+.float-right.mb-3.mr-3 {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    /* Esempio: fissare il link "Torna su" in basso a destra */
+}
+
+/* ESERCIZIO 11 */
+.blog-pagination .btn-outline-secondary[disabled] {
+    opacity: 0.6;
+    /* Esempio: opacità ridotta per il bottone "Nuovi" disabilitato */
+}
+
+/* ESERCIZIO 12 */
+.blog-footer a[href^="https://"] {
+    color: #333;
+    /* Esempio: colore scuro per il secondo link del footer che inizia con "https://" */
+}
